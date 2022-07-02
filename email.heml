@@ -1,0 +1,78 @@
+<heml>
+
+    <head>
+        <subject>Welcome to HEML!</subject>
+        <style>
+            .u-capitalize {
+                text-transform: capitalize;
+            }
+
+            .fixture-time {
+                padding: 0.5em;
+                margin: 1rem 1rem;
+                background-color: #dbdbdb;
+                color: #5a5a5a;
+                font-weight: bold;
+            }
+
+            .home-team {
+                text-align: right;
+            }
+
+            .fixture-opponent {
+                font-size: 1em;
+                font-weight: bold;
+                margin-top: 1.5rem;
+            }
+
+            .u-text-c {
+                text-align: center;
+            }
+
+            .btn {
+                width: 200px;
+                background-color: #ffeb3b;
+                color: black;
+                margin: 0 auto;
+            }
+        </style>
+        <font href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    </head>
+
+    <body>
+        <container>
+            <h2 class="u-text-c">${user}</h2>
+            <row>
+                <column large="5" small="4">
+                    <p class="u-capitalize fixture-opponent home-team truncate">Heertfordshire Sports Village</p>
+                </column>
+                <column large="2" small="4">
+                    <p class="fixture-time u-text-c">15:00</p>
+                </column>
+                <column large="5" small="4">
+                    <p class="u-capitalize fixture-opponent truncate">accies</p>
+                </column>
+            </row>
+            <row>
+                <column class="u-text-c">
+                    Heertfordshire Sports Village (De Havilland Campus), Hatfield Business Park, Mosquito Drive, Hatfield, Herts, AL10 9EU
+                </column>
+            </row>
+
+            <h3 class="u-text-c"> Can You Play?</h3>
+
+            <row>
+                <column large="6" small="6">
+                    <button class="btn" href="https://heml.io">
+                        Yes
+                    </button>
+                </column>
+                <column large="6" small="6">
+                    <button class="btn" href="https://heml.io">
+                        No
+                    </button>
+                </column>
+            </row>
+        </container>
+    </body>
+</heml>

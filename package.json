@@ -1,0 +1,19 @@
+{
+  "name": "email-heml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.16.3",
+    "heml": "1.1.3",
+    "lit-html": "0.9.0",
+    "lodash.template": "4.4.0",
+    "nodemon": "1.17.2"
+  }
+}
